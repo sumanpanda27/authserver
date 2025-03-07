@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 connectDB();
 
-const allowedOrigins = ["https://authserver-kncs.onrender.com"];
+const allowedOrigins = ["https://authclient-q0x8.onrender.com"];
 
 import authRouter from "./routes/authRoutes.js";
 import userRouter from "./routes/userRoutes.js";
