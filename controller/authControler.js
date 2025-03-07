@@ -103,7 +103,7 @@ export const logOut = async (req, res) => {
       none: "strict",
       maxage: 7 * 24 * 60 * 60 * 1000,
     });
-    return res.json({ success: true, message: "Logged Out" });
+    return res.json({ success: true, message: "Logged Out Successfully" });
   } catch (error) {
     return res.json({ success: false, message: error.message });
   }
